@@ -1,0 +1,49 @@
+import java.util.*;
+import static java.lang.Math.pow;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+public class AyushXpath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		 System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
+//	     WebDriver driver= new ChromeDriver();
+//	     driver.manage().window().maximize();
+//	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+//	     driver.navigate().to("https://net.invanto.com/app/membership/1206");
+//	     driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+//
+//	     driver.findElement(By.xpath("//*[@id='username']")).sendKeys("sharmaayushlnct@gmail.com");
+//	     driver.findElement(By.xpath("//*[@id='password']")).sendKeys("123456789"); 
+//	     driver.findElement(By.xpath("//button[text()='Login to My Account']")).click();
+//	          
+//	     
+		int a,b,c,d;
+		
+		 for(a=1;a<100;a++)
+		 {
+			 int a3= a*a*a;
+			 for(b=a+1;b<100;b++) 
+			 {
+				 int b3=b*b*b;
+				 for(c=b+1;c<100;c++)
+				 {
+					 int c3= c*c*c;
+					 for(d=c+1;c<100;c++)
+					 {
+						 int d3= d*d*d;
+						if(c3+d3==a3+b3)
+						{
+							System.out.print(a + " " + b + " "+c+ " "+d); 
+						}
+					 }
+				 }
+			 }
+		 }
+		
+	}
+
+}

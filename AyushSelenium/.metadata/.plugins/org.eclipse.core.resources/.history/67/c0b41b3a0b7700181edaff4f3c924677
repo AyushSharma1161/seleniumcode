@@ -1,0 +1,80 @@
+//import java.util.*;
+//import static java.lang.Math.pow;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+//import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+public class AyushXpath {
+
+	//public static void main(String[] args) {
+           
+	@BeforeSuite(alwaysRun = true)
+	public void Setup()
+	{
+		
+		 //TODO Auto-generated method stub
+		 System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
+	}
+	
+	 @Test()
+	 
+	 public void mainFunction()
+	 {
+		 WebDriver driver= new ChromeDriver();
+	     driver.manage().window().maximize();
+	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+	     
+	     // open GlobalSqa Web site
+	     
+	     driver.navigate().to("http://www.globalsqa.com/angularjs-protractor-practice-site/");
+	     driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+         
+	     // Click on Multiform at basic form components
+	     driver.findElement(By.xpath("//a[contains(@href,'angularJs-protractor/Multiform') and @class='button tiny_button button_pale regular_text']")).click();
+	     try {
+	     
+	     //Provive name and Email and click on next section
+	     driver.findElement(By.xpath(" //*[@name='name']")).sendKeys("Ayush Sharma");   
+	     driver.findElement(By.xpath(" //*[@name='email']")).sendKeys("shamaayushlnct@gmail.com"); 
+	     driver.findElement(By.xpath("//*[@class='btn btn-block btn-info']")).click();
+	     
+	    //Radio button object are not visible to click at radio button
+	    
+	    Thread.sleep(3000);
+	     //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@value='xbox']")));
+	     driver.findElement(By.xpath("//*[@value='xbox']")).click();
+	    
+	    
+	     
+			Thread.sleep(3000);
+		 
+        driver.findElement(By.xpath("//*[@class='btn btn-block btn-info']")).click();
+        
+            Thread.sleep(2000);
+       // driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+        driver.findElement(By.xpath("//*[@type='submit']")).click();
+	    
+        driver.close();
+	     
+        WebDriver driver1= new ChromeDriver();
+	   driver1.navigate().to("http://www.globalsqa.com/angularjs-protractor-practice-site/");
+	   driver1.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+	   driver1.manage().window().maximize();
+	     driver1.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+	   
+	     // Click on WebTable at basic form components
+	     driver1.findElement(By.xpath("//a[contains(@href,'angularJs-protractor/WebTable') and @class='button tiny_button button_pale regular_text']")).click();
+	     }
+	        catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+}
+}

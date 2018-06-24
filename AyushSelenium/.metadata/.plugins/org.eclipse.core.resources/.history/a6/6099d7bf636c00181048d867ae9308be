@@ -1,0 +1,89 @@
+import java.util.*;
+import static java.lang.Math.pow;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+public class AyushXpath {
+
+	public static void main(String[] args) {
+		
+		
+	 
+	        // read in one command-line argument
+	        int n = Integer.parseInt(args[0]);
+
+	        // for each a, b, c, d, check whether a^3 + b^3 = c^3 + d^3
+	        for (int a = 1; a <= n; a++) {
+	            int a3 = a*a*a;
+	            if (a3 > n) break;
+
+	            // start at a to avoid print out duplicate
+	            for (int b = a; b <= n; b++) {
+	                int b3 = b*b*b;
+	                if (a3 + b3 > n) break;
+
+	                // start at a + 1 to avoid printing out duplicates
+	                for (int c = a + 1; c <= n; c++) {
+	                    int c3 = c*c*c;
+	                    if (c3 > a3 + b3) break;
+
+	                    // start at c to avoid printing out duplicates
+	                    for (int d = c; d <= n; d++) {
+	                        int d3 = d*d*d;
+	                        if (c3 + d3 > a3 + b3) break;
+
+	                        if (c3 + d3 == a3 + b3) {
+	                            System.out.print(+a);
+	                            System.out.print(+b);
+	                            System.out.print(+c);
+	                            System.out.print(+d);
+	                        }
+	                    }
+	                }
+	            }
+	        }
+	    }
+	}
+
+	
+		// TODO Auto-generated method stub
+//		 System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
+//	     WebDriver driver= new ChromeDriver();
+//	     driver.manage().window().maximize();
+//	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+//	     driver.navigate().to("https://net.invanto.com/app/membership/1206");
+//	     driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+//
+//	     driver.findElement(By.xpath("//*[@id='username']")).sendKeys("sharmaayushlnct@gmail.com");
+//	     driver.findElement(By.xpath("//*[@id='password']")).sendKeys("123456789"); 
+//	     driver.findElement(By.xpath("//button[text()='Login to My Account']")).click();
+//	          
+//	     
+//		long a,b,c,d;
+//		
+//		 for(a=1;a<100;a++)
+//		 {
+//			 long a3= a*a*a;
+//			 for(b=a+1;b<100;b++) 
+//			 {
+//				 long b3=b*b*b;
+//				 for(c=b+1;c<100;c++)
+//				 {
+//					 long c3= c*c*c;
+//					 for(d=c+1;c<100;c++)
+//					 {
+//						 long d3= d*d*d;
+//						if(c3+d3==a3+b3)
+//						{
+//							System.out.print(a + " " + b + " "+c+ " "+d); 
+//						}
+//					 }
+//				 }
+//			 }
+//		 }
+//		
+//	}
+
+//}

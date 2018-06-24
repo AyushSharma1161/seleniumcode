@@ -1,0 +1,50 @@
+import java.util.*;
+import static java.lang.Math.pow;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+public class AyushXpath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		 System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
+//	     WebDriver driver= new ChromeDriver();
+//	     driver.manage().window().maximize();
+//	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+//	     driver.navigate().to("https://net.invanto.com/app/membership/1206");
+//	     driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS );
+//
+//	     driver.findElement(By.xpath("//*[@id='username']")).sendKeys("sharmaayushlnct@gmail.com");
+//	     driver.findElement(By.xpath("//*[@id='password']")).sendKeys("123456789"); 
+//	     driver.findElement(By.xpath("//button[text()='Login to My Account']")).click();
+//	          
+//	     
+		int a,b,c,d;
+		
+		 for(a=1;a<1000;a++)
+		 {
+			 for(b=a+1;b<1000;b++) 
+			 {
+				 for(c=b+1;c<1000;c++)
+				 {
+					 for(d=c+1;c<1000;c++)
+					 {
+						 long sum = (long) (pow(a, 3) + pow(b, 3));
+						 long sum1= (long) (pow(c, 3) + pow(d, 3));
+						 
+						 if(sum==sum1)
+						 {
+							 System.out.println( +a+  " "  +b+ " " +c+ " " +d );
+						 }
+
+						 
+					 }
+				 }
+			 }
+		 }
+		
+	}
+
+}

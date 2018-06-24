@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SeleniumProgram&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumProgram&apos;&#x0D;&#x0A;- Original element: &apos;client-combined-3.12.0-sources.jar&apos;" description="Delete element" element1="Lib/client-combined-3.12.0-sources.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1526226444756" subPackages="false" version="1.0"/>
+</session>

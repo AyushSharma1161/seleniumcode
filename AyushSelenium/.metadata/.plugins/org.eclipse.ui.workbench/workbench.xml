@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="15" version="2.0">
+<workbenchAdvisor/>
+<window height="728" maximized="true" width="1024" x="156" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="425" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.LanguageToolbar" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.CentralTestDataToolbar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.AutStarterToolbar" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.AutToolbar" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.TestSuiteToolbar" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.ObservationToolbar" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.ObjectMappingToolbar" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.jubula.client.ui.toolbar.TestResultToolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1529316392024" focus="true" label="Workspace - Functional Test Specification">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views/>
+<perspectives activePerspective="org.eclipse.jubula.client.ui.perspectives.SpecificationPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jubula.client.ui.perspective.SpecificationPerspective" id="org.eclipse.jubula.client.ui.perspectives.SpecificationPerspective" label="Functional Test Specification"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.jubula.client.ui.menu.actions"/>
+<alwaysOnActionSet id="org.eclipse.jubula.client.ui.globalActions"/>
+<show_view_action id="org.eclipse.jubula.client.inspector.views.inspectorView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.TestSuiteBrowser"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.TestCaseBrowser"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.ComponentNameBrowser"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.DataSetView"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.CompNamesView"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.TestresultSummaryView"/>
+<show_view_action id="org.eclipse.jubula.client.ui.views.Image"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<perspective_action id="org.eclipse.jubula.client.ui.perspectives.ExecutionPerspective"/>
+<perspective_action id="org.eclipse.jubula.client.ui.perspectives.SpecificationPerspective"/>
+<perspective_action id="org.eclipse.jubula.client.ui.perspectives.ReportPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@396639b">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jubula.client.ui.views.RunningAuts" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@396639b">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.27" ratioLeft="270" ratioRight="730" relationship="2" relative="org.eclipse.ui.internal.ViewStack@396639b"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2b22a1cc" ratio="0.6" ratioLeft="438" ratioRight="292" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@62573c86" ratio="0.5" ratioLeft="303" ratioRight="303" relationship="4" relative="org.eclipse.ui.internal.ViewStack@2b22a1cc">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jubula.client.ui.views.DataSetView" label="LabelNotFound"/>
+<page content="org.eclipse.jubula.client.ui.views.CompNamesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2418ba04" ratio="0.7491749" ratioLeft="454" ratioRight="152" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a18649a" ratio="0.39933994" ratioLeft="242" ratioRight="364" relationship="4" relative="org.eclipse.ui.internal.ViewStack@396639b">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jubula.client.ui.views.TestCaseBrowser" label="LabelNotFound"/>
+<page content="org.eclipse.jubula.client.ui.views.ComponentNameBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5c534b5b" ratio="0.3264463" ratioLeft="79" ratioRight="163" relationship="4" relative="org.eclipse.ui.internal.ViewStack@396639b">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jubula.client.ui.views.TestSuiteBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@a18649a"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@5c534b5b"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.jubula.client.inspector.ui.inspectorView.toolbar"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList/>
+</workbench>

@@ -1,0 +1,51 @@
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.*;
+import java.util.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.Action;
+public class SeleniumProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","E://chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		// Put implicit wait will wait for 10 second
+				driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
+				// Launch site
+			    driver.navigate().to("http://www.keenthemes.com/preview/metronic/theme/admin_1/ui_tree.html");
+			    
+			    driver.manage().window().maximize();
+			    
+			    String URL;
+			    
+			    //String arr[]= new String[10];
+			    
+			   // ArrayList <String> list = new ArrayList<String>(); 
+			    List<WebElement> links = driver.findElements(By.tagName("a"));
+			    
+			  for(WebElement allink :links)
+			  {
+				  //System.out.println(allink.getText());
+				  System.out.println(allink);
+				  System.out.println(allink.getAttribute("href"));
+			  }
+			    
+			   
+			    
+			    URL = driver.getCurrentUrl();
+			    
+			    if(URL.contains("theme"))
+			    		{
+			    		System.out.println("URL Conatin Theme word");
+			    		}
+			    
+//			    WebElement From = driver.findElement(By.xpath(".//*[@id='j3_7']/a")); 
+//			    WebElement To =  driver.findElement(By.xpath(".//*[@id='j3_1']/a")); 
+//			    Actions builder = new Actions(driver);
+//			    Action dragAndDrop = builder.clickAndHold(From).moveToElement(To).release(To).build();
+//			    dragAndDrop.perform(); 
+	}
+
+}
